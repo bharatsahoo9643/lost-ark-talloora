@@ -1,0 +1,13 @@
+# Language detection rules
+
+src/*.ts linguist-detectable
+*.bat text eol=crlf
+
+node_modules/* linguist-vendored
+*.woff binary
+src/** linguist-detectable  
+
+*.htm linguist-vendored
+
+*.html linguist-vendored
+# eof 6d646a60
